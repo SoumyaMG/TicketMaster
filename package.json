@@ -18,7 +18,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "backend": "nodemon index.js",
-    "dev": " concurrently \" nodemon index.js\" \"cd client && npm start \" "
+    "dev": " concurrently \" nodemon index.js\" \"cd client1 && npm start \" "
   },
   "keywords": [],
   "author": "",
